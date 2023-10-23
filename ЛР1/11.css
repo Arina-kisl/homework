@@ -1,0 +1,148 @@
+p{
+font-size:18px;
+color:#56382d;
+ text-align:left; 
+text-indent:1cm;
+tab-size:0;
+text-align-last:auto;
+word-spacing:initial;
+letter-spacing:normal;
+line-height:20px;
+text-shadow: white 1px 0.5px 0.5px;
+}
+.markers {
+	margin: 0 0 20px 14px;
+	padding: 0;
+}
+.markers li {
+	list-style-image: url(2.jpg);
+	margin: 7px 0;
+}
+.ooo{
+align:left;
+width:30%;
+height:30%;
+border:10px solid #56382d; /* Цвет и ширину рамки */
+border-radius: 10px;  /* Скругление углов изображения */
+box-shadow: 2px 1px 5px #999999; /*Цвет и размер тени */
+float:left; /* Выравниваем по левому краю */
+margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+.lol{
+align:center;
+width:20%;
+height:30%;
+border:10px solid #56382d; /* Цвет и ширину рамки */
+border-radius: 50%;  /* Скругление углов изображения */
+box-shadow: 2px 1px 5px #999999; /*Цвет и размер тени */
+float:right; /* Выравниваем по правому краю */
+margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+.mem{
+align:center;
+width:50%;
+height:30%;
+border:10px solid #56382d; /* Цвет и ширину рамки */
+box-shadow: 2px 1px 5px #999999; /*Цвет и размер тени */
+border-radius: 10px;  /* Скругление углов изображения */
+margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+div {
+    text-align: center;
+}
+table {
+   border-collapse: collapse; /* Убираем пустые промежутки между ячейками */
+   border: 1px solid #56382d; /* Цвет и толщина внешней границы */
+}
+th, td {
+font-size:18px;
+   border: 2px solid #56382d;
+}
+caption {
+   caption-side: top;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 18px;
+}
+body {
+background-color: #fdfff5
+}
+h1{
+font-size: 24px;
+color: #56382d;
+	font-family: 'Crimson Text';
+	font-style: italic
+}
+h2{
+font-size: 18px;
+color: #56382d;
+	font-family: 'Crimson Text';
+	font-style: italic
+}
+h3{
+font-size: 14px;
+color: #56382d;
+	font-family: 'Crimson Text';
+	font-style: italic
+}
+li{
+font-size: 18px;
+color: #56382d;
+}
+@font-face {
+	font-family: 'Crimson Text';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Crimson Text'),
+		url('/fonts/CrimsonText-Italic.woff2') format('woff2'), 
+		url('/fonts/CrimsonText-Italic.woff') format('woff'),
+		url('/fonts/CrimsonText-Italic.ttf') format('ttf'),
+		url('/fonts/CrimsonText-Italic.eot') format('eot');
+}
+ul#sod{
+padding: 0px 20px 10px 51px;
+margin: 0.5em 0 0em 1em;
+color: #2E2E2E;
+list-style-type: none;
+background: #CCFFFF;
+border-left: #66FFCC 4px solid;
+display: inline-block;
+}
+ul#sod li{}
+ul#sod li:before{
+font-weight:normal !important
+}
+#navbar ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 70px;
+  background-color: #666;
+  padding-left: 150px;
+  min-width: 470px;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #56382d; }
+#navbar ul li:hover { background-color: #666; }
