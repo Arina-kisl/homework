@@ -1,0 +1,251 @@
+.krug1, .krug2, .krug3, .ring1, .ring2, .ring3, .kvadrat, .krpryam, .pryam, .pryam1, .trapezoid, .pryam7, .pryam8, .scene, .scene1, .scene2 {
+    position: absolute;
+}
+.pryam{
+width: 70px;
+height: 200px;
+border: 1px solid;
+background: #00BFFF;
+top: 450px;
+right: 950px;
+border: 0.25em solid #202020;
+z-index:-1;
+}
+.krpryam{
+width: 30px;
+height: 50px;
+background: white; /* Цвет фона */
+padding: 10px; /* Поля вокруг текста */
+border-radius: 5px; /* Уголки */
+top: 470px;
+right: 960px;
+border: 0.25em solid #202020;
+}
+.kvadrat{
+width: 80px;
+height: 10px;
+border: 1px solid;
+background: #D4D5DA;
+top: 440px;
+right: 945px;
+border: 0.25em solid #202020;
+}
+.trapezoid {
+border-bottom: 70px solid black;
+border-right: 80px solid transparent;
+height: 0px;
+width: 180px;
+top: 587px;
+right: 690px;
+}
+.pryam1{
+width: 175px;
+height: 40px;
+border: 1px solid;
+background: #00BFFF;
+top: 540px;
+right: 770px;
+border: 0.25em solid #202020;
+}
+.krug1 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 630px;
+    right: 950px;
+
+}
+.krug2 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 630px;
+    right: 850px;
+}
+.krug3 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 630px;
+    right: 750px;
+}
+.ring1 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 610px;
+    right: 930px;
+}
+.ring2 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 610px;
+    right: 830px;
+}
+.ring3 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 610px;
+    right: 730px;
+}
+.pryam7 {
+width: 20px;
+height: 70px;
+background: grey;
+top: 470px;
+right: 800px;
+border: 1px solid;
+border: 0.25em solid #202020;
+}
+.pryam8{
+width: 30px;
+height: 15px;
+background: grey;
+top: 460px;
+right: 795px;
+border: 1px solid;
+border: 0.25em solid #202020;
+}
+.scene {
+position: absolute;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+box-shadow: 0 0 20px lightgray;
+background: radial-gradient(ellipse at center, rgba(206,220,231,1) 33%,rgba(89,106,114,0) 100%);
+top: 430px;
+right: 795px;
+}
+.scene1 {
+position: absolute;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+box-shadow: 0 0 20px lightgray;
+background: radial-gradient(ellipse at center, rgba(206,220,231,1) 33%,rgba(89,106,114,0) 100%);
+top: 410px;
+right: 820px;
+}
+.scene2 {
+position: absolute;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+box-shadow: 0 0 20px lightgray;
+background: radial-gradient(ellipse at center, rgba(206,220,231,1) 33%,rgba(89,106,114,0) 100%);
+top: 410px;
+right: 850px;
+}
+.cls, .krug5, .krug6, .circle, .pryam3, .pryam2 {
+    position: absolute;
+}
+.cls{
+height: 150px;
+width: 150px;
+border: 1px solid lightblue;
+background: lightblue;
+border-radius: 100% 0% 100% 100%;
+top: 500px;
+right: 500px;
+animation-name: h2o;
+animation-duration: 5s;
+}
+.krug5 {
+    width: 150px;
+    height: 150px;
+    background: aqua;
+    border-radius: 50%;
+    top: 500px;
+    right: 1400px;
+    animation-name: o2;
+    animation-duration: 2s;
+}
+.text_center{
+color: #ffffff;
+text-align: center;
+line-height: 150px;
+}
+.krug6 {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    top: 500px;
+    right: 900px;
+    animation-name: o21;
+    animation-duration: 2s;
+}
+.circle {
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-color: white;
+position: relative;
+top: 525px;
+right: -600px;
+}
+.circle::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: black;
+  height: 10px;
+  margin-top: -5px;
+  top: 50%;
+  left: 5px;
+  right: 5px;
+  z-index: 9;
+}
+.circle::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: black;
+  width: 10px;
+  margin-left: -5px;
+  left: 50%;
+  top: 5px;
+  bottom: 5px;
+  z-index: 9;
+}
+.pryam2{
+width: 100px;
+height: 10px;
+background: black;
+top: 570px;
+right: 725px;
+}
+.pryam3{
+width: 100px;
+height: 10px;
+background: black;
+top: 550px;
+right: 725px;
+}
+@keyframes h2o {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
