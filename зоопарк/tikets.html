@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Покупка билетов</title>
+    <link rel= "shortcut icon" href="img/icon.jpg">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script>
+        function Complete()
+        {
+            var Elem="Выберите билет: "+ document.Sel1.Tiket.value +
+            "\nФамилия: " + document.Sel1.Family.value +
+                "\nИмя: " + document.Sel1.Name.value +
+                "\nТелефон: " + document.Sel1.Phone.value+
+                "\nПочта: " + document.Sel1.Mail.value;
+            alert(Elem);
+        }
+    </script>
+    
+   
+    
+  </head>
+  <body class = "body-top">
+    
+    <header class = "container">
+        <h1>Тяжинский зоопарк</h1>  
+        <div id = "menu">
+          <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Главная</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="news.html">Новости</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="animals.html">Животные</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="tikets.html">Купить билет</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="re.html">Отзывы</a>
+          </nav>
+          </div>
+        </header> 
+        <main class = "flex">
+          <div class = "col">
+            <div class = "tour">
+              <h3><u>Входной билет Взрослый:</u> 400 рублей.</h3> 
+              <h3><u>Входной билет Льготный:</u> 250 рублей.</h3>
+              </div>
+          </div>
+          <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#amyModal">
+            Купить билет
+          </button>
+          <div class="modal fade" id="amyModal" tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalScrollableTitle"
+          aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"
+                id="exampleModalScrollableTitle">Купить билет</h5>
+                <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" style="max-width: 600px">
+              <form method="get" action="#" id="orderForm">
+                <div class="tour">
+                  <h3><b>Заполните анкету</b></h3>
+<FORM NAME="Sel1">
+    <TABLE>
+      <TR><TD>Выберите билет:</TD>
+        <TD><select id="inp1">
+          <option value="Льготный" selected>
+            Льготный
+          </option>
+          <option value="Взрослый" selected>
+            Взрослый
+          </option>
+        </select></TD>
+        <TR><TD>Фамилия:</TD>
+            <TD><INPUT NAME="Family" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD>Имя:</TD>
+            <TD><INPUT NAME="Name" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD>Телефон:</TD>
+            <TD><INPUT NAME="Phone" SIZE=10></TD></TR>
+              <TR><TD>Почта:</TD>
+                <TD><INPUT NAME="Family" SIZE=20
+                      onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+                        
+    </TABLE>
+                  
+                </div>
+              </form>
+      
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary"  data-dismiss="modal">Сохранить</button>
+      
+            </div>
+          </div>
+        </div>
+        </div>
+             <footer class = "footer">
+            <div class = "row">
+              <div class = "col">
+                Наш номер: +7(909)-521-30-93 Адрес: ул.Ленина 112. Мы работаем с 10:00 до 20:00 без обеда и выходных.
+              </div>       
+             </div>
+          </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      </body>
+    </html>
